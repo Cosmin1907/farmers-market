@@ -28,8 +28,29 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     font-family: 'Quattrocento', serif;
+    text-transform: uppercase;
+    color:#064700;
+}
+
+#menu {
+    letter-spacing: 1px;
+    font-size: 115%;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 5px;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* Main content */

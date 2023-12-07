@@ -1,8 +1,17 @@
-/* Asterisk wildcard selector to override default styles added by the browser*/
+/* Asterisk wildcard selector, this will override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic Styles */
+    color:darkslategray;
 }
 
 /* Header */
@@ -13,6 +22,8 @@ header {
 /* Main content */
 main {
     background-color: blueviolet;
+    /* Main element will take up surplus space and push futter down */
+    flex: 1 0 auto;
 }
 
 /* Footer */

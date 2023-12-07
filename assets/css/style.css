@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&family=Quattrocento:wght@400;700&display=swap');
+
 /* Asterisk wildcard selector, this will override default styles added by the browser */
 * {
     padding: 0;
@@ -12,6 +15,7 @@ body {
     flex-direction: column;
     /* Generic Styles */
     color:darkslategray;
+    font-family: 'Palanquin', sans-serif;
 }
 
 /* Header */

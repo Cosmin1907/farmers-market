@@ -23,6 +23,10 @@ header {
     background-color: aqua;
 }
 
+h1 {
+    font-family: 'Quattrocento', serif;
+}
+
 /* Main content */
 main {
     background-color: blueviolet;

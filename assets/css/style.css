@@ -26,6 +26,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -64,6 +67,32 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
     padding: 0 10px;
     display: none;
+    top:100%;
+}
+
+/* Nav toggle */
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+/* Nav toggle button styling */
+.nav-toggle-label {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Additional styling for when checkbox is checked */
+#nav-toggle:checked+.nav-toggle-label {
+    background-color: #45a049;
 }
 
 /* Main content */

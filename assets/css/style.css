@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #2f5638;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -36,7 +36,7 @@ header a {
 h1 {
     font-family: 'Quattrocento', serif;
     text-transform: uppercase;
-    color:#064700;
+    color: #ffffff;
 }
 
 #menu {
@@ -51,6 +51,14 @@ h1 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* Navbar styles with dropdown toggle */
+
+nav {
+    position: absolute;
+    background-color: #2f5638;
+    color: #ffffff;
 }
 
 /* Main content */

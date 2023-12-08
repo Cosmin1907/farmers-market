@@ -21,7 +21,7 @@ body {
 /* Header */
 header {
     background-color: #2f5638;
-    padding: 0 1rem;
+    padding: 0 10px;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -59,6 +59,11 @@ nav {
     position: absolute;
     background-color: #2f5638;
     color: #ffffff;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 2px 2px #3a3a3a;
+    padding: 0 10px;
+    display: none;
 }
 
 /* Main content */

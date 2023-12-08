@@ -55,7 +55,7 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #ffffff;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -84,7 +84,7 @@ nav {
 
 /* Nav toggle button styling */
 .nav-toggle-label {
-    padding: 10px;
+    padding: 5px;
     /* Default color */
     background-color: #2f5638;
     color: #fff;
@@ -104,10 +104,34 @@ main {
     background-color: blueviolet;
     /* Main element will take up surplus space and push futter down */
     flex: 1 0 auto;
-    margin-top: 49px;
+    margin-top: 42px;
 }
 
 /* Footer */
 footer {
     background-color:aquamarine;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }

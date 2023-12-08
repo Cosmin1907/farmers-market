@@ -84,7 +84,8 @@ nav {
 .nav-toggle-label {
     cursor: pointer;
     padding: 10px;
-    background-color: #4CAF50;
+    /* Default color */
+    background-color: #2f5638;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -92,7 +93,9 @@ nav {
 
 /* Additional styling for when checkbox is checked */
 #nav-toggle:checked+.nav-toggle-label {
-    background-color: #45a049;
+    /* Checked color */
+    background-color: #008337;
+   
 }
 
 /* Main content */
@@ -100,6 +103,7 @@ main {
     background-color: blueviolet;
     /* Main element will take up surplus space and push futter down */
     flex: 1 0 auto;
+    margin-top: 70px;
 }
 
 /* Footer */

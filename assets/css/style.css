@@ -42,7 +42,8 @@ h1 {
     font-family: 'Karla', sans-serif;
     text-transform: uppercase;
     color: #ffffff;
-    
+    font-size: 30px;
+    margin: 0; 
 }
 
 #menu {
@@ -91,6 +92,8 @@ nav {
     color: #fff;
     border: none;
     border-radius: 5px;
+    /* Adjust the size as needed to match h1 */
+    font-size: 25px;
 }
 
 /* Additional styling for when checkbox is checked */

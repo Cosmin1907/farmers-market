@@ -19,6 +19,12 @@ body {
     font-family: 'Palanquin', sans-serif;
 }
 
+h2 {
+    font-family: 'Karla', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
 /* Header */
 header {
     background-color: #2f5638;
@@ -99,7 +105,7 @@ nav {
 /* Additional styling for when checkbox is checked */
 #nav-toggle:checked+.nav-toggle-label {
     /* Checked color */
-    background-color: #008337;
+    background-color: #3C9756;
    
 }
 
@@ -115,6 +121,18 @@ main {
     height: 600px;
     width: 100%;
     background: url(../images/hero.webp) no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(104, 111, 146, 0.7);
+    font-size: 110%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 30px;
+    padding-left: 10px;
 }
 
 /* Footer */
@@ -218,8 +236,13 @@ main {
             color: #ffffff;
             /* Adjust text color */
         }
-    
-       
+
+        /* Hero */
+        #cover-text {
+            width: 350px;
+            min-height: 150px;
+            right: 50px;
+        }  
 }
 
 /* Media query: for large screen (992px and up) */

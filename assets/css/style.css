@@ -105,12 +105,17 @@ nav {
 
 /* Main content */
 main {
-    background-color: rgb(189, 133, 241);
     /* Main element will take up surplus space and push futter down */
     flex: 1 0 auto;
     margin-top: 50px;
 }
 
+/* Hero Section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero.webp) no-repeat center center/cover;
+}
 
 /* Footer */
 #social-media {
@@ -214,7 +219,7 @@ main {
             /* Adjust text color */
         }
     
-        /* Add more styles for additional branches */
+       
 }
 
 /* Media query: for large screen (992px and up) */

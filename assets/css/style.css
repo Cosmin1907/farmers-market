@@ -135,6 +135,32 @@ main {
     padding-left: 10px;
 }
 
+#manifesto {
+    color:#2f5638;
+    width: 90%;
+    margin: 20px auto;
+}
+
+#manifesto h2 {
+    color:#2f5638;
+    font-size: 220%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#branch1, #branch2, #branch3 {
+    line-height: 150%;
+    margin: 10px 0;
+    padding: 0 30px;
+}
+
+#circle-image {
+    background: url(../images/tree.webp) no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+}
+
 /* Footer */
 #social-media {
     text-align: center;
@@ -185,19 +211,19 @@ main {
         margin-top: 60px;
     }
 
-        .tree-container {
+        #tree-container {
             position: relative;
             width: 100%;
             overflow: hidden;
         }
     
-        .tree-image {
+        #tree-image {
             width: 100%;
             height: auto;
             display: block;
         }
     
-        .text-container {
+        #text-container {
             position: absolute;
             top: 10%;
             /* Adjust as needed */
@@ -207,33 +233,33 @@ main {
         }
     
         /* Style individual branches */
-        .branch1 {
+        #branch1 {
             position: absolute;
             top: 20%;
             /* Adjust as needed */
             left: 40%;
             /* Adjust as needed */
-            color: #ffffff;
+            color: #2f5638;;
             /* Adjust text color */
         }
     
-        .branch2 {
+        #branch2 {
             position: absolute;
             top: 40%;
             /* Adjust as needed */
             left: 60%;
-            /* Adjust as needed */
-            color: #ffffff;
+                /* Adjust as needed */
+                color: #2f5638;
             /* Adjust text color */
         }
     
-        .branch3 {
+        #branch3 {
             position: absolute;
             top: 50%;
             /* Adjust as needed */
             left: 80%;
             /* Adjust as needed */
-            color: #ffffff;
+            color: #2f5638;
             /* Adjust text color */
         }
 

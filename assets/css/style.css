@@ -130,7 +130,7 @@ main {
     position: absolute;
     bottom: 30px;
     width: 75%;
-    min-height: 200px;
+    min-height: 35%;
     padding-top: 30px;
     padding-left: 10px;
 }
@@ -223,9 +223,10 @@ main {
 
         /* Hero */
         #cover-text {
-            width: 350px;
-            min-height: 150px;
-            right: 50px;
+            width: 60%;
+            min-height: 25%;
+            right: 0px;
+            font-size: 140%;
         }  
 
         /* Manifesto section */

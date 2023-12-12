@@ -156,9 +156,15 @@ main {
 
 #circle-image {
     background: url(../images/tree.webp) no-repeat top center/cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
+    width: 50vw;
+    height: 50vw;
+}
+
+#tree-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(104, 111, 146, 0.5);
 }
 
 /* Footer */
@@ -210,58 +216,6 @@ main {
         /* Push main content down to accomodate larger header */
         margin-top: 60px;
     }
-
-        #tree-container {
-            position: relative;
-            width: 100%;
-            overflow: hidden;
-        }
-    
-        #tree-image {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-    
-        #text-container {
-            position: absolute;
-            top: 10%;
-            /* Adjust as needed */
-            left: 70%;
-            transform: translateX(-50%);
-            text-align: center;
-        }
-    
-        /* Style individual branches */
-        #branch1 {
-            position: absolute;
-            top: 20%;
-            /* Adjust as needed */
-            left: 40%;
-            /* Adjust as needed */
-            color: #2f5638;;
-            /* Adjust text color */
-        }
-    
-        #branch2 {
-            position: absolute;
-            top: 40%;
-            /* Adjust as needed */
-            left: 60%;
-                /* Adjust as needed */
-                color: #2f5638;
-            /* Adjust text color */
-        }
-    
-        #branch3 {
-            position: absolute;
-            top: 50%;
-            /* Adjust as needed */
-            left: 80%;
-            /* Adjust as needed */
-            color: #2f5638;
-            /* Adjust text color */
-        }
 
         /* Hero */
         #cover-text {

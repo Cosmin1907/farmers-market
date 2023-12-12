@@ -155,16 +155,20 @@ main {
 }
 
 #circle-image {
-    background: url(../images/tree.webp) no-repeat top center/cover;
-    width: 50vw;
-    height: 50vw;
+    background: url(../images/cow.webp) no-repeat top center/cover;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 10px;
+    /* makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
 }
 
-#tree-image {
+#bottom-image {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(47, 86, 56, 0.6);
 }
 
 /* Footer */

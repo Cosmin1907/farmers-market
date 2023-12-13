@@ -237,6 +237,14 @@ main {
     padding:5%;
 }
 
+/* Media query: large and landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -288,6 +296,10 @@ main {
             border: 5px solid white;
             flex-basis: 300px;
         }
+
+        #photos {
+            column-count: 3;
+        }
 }
 
 /* Media query: for large screen (992px and up) */
@@ -295,13 +307,13 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #ffffff;
     }
-
- /* Manifesto section */
-
-
- /* Market section */
-
-
+    
+    /* Manifesto section */
+    
+    /* Gallery */
+    #photos {
+        column-count: 4;
+    }
 }
 
 /* Media query: for larger devices (1200px and up) */

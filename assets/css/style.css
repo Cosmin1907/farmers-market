@@ -230,26 +230,6 @@ main {
             font-size: 140%;
         }  
 
-        /* Manifesto section */
-        #branch1, #branch2, #branch3 {
-            display: flex;
-            flex-direction: row;
-        }
-
-        #branch1 {
-            text-align: center;
-            align-self: flex-start;
-
-        }
-
-        #branch2 {
-            text-align: end;
-            align-self: flex-end;
-        }
-
-        #tree-image {
-            order: 0;
-        }
 }
 
 /* Media query: for large screen (992px and up) */
@@ -257,6 +237,8 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #ffffff;
     }
+
+ /* Manifesto section */
 
 
 }

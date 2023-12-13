@@ -159,7 +159,7 @@ main {
     width: 90vw;
     height: 90vw;
     margin-bottom: 10px;
-    /* makes the square image into a circle */
+    /* Makes the square image into a circle */
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
@@ -169,6 +169,31 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Market Style */
+#farmers {
+    background-color: rgba(47, 86, 56, 0.8);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#farmers div {
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    /* It won't wrap on screens narrower than 400px. 
+    Each div will extend to occupy the entire width of its row. */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid over the background */
+    border: 2px solid white;
+}
+
+#market h2 {
+    /* Override the heading color and dims */
+    color:#2f5638;
+    font-size: 300%;
 }
 
 /* Footer */

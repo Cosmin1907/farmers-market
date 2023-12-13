@@ -171,6 +171,13 @@ main {
     justify-content: center;
 }
 
+/* Hero Marketplace */
+#hero-market {
+    background: url(../images/farm.webp) no-repeat center center/cover;
+    height: 300px;
+    width: 100%;
+}
+
 /* Market Style */
 #farmers {
     background-color: rgba(47, 86, 56, 0.8);

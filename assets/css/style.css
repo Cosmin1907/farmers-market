@@ -114,6 +114,22 @@ main {
     /* Main element will take up surplus space and push futter down */
     flex: 1 0 auto;
     margin-top: 50px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+}
+
+#register {
+    background-image: url(../images/vegetables.webp);
+    background-size: cover;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#register-form {
+    color:#ffffff ;
+    background-color: rgba(47, 86, 56, 0.6);
+    padding: 20px;
 }
 
 /* Hero Section */

@@ -309,14 +309,21 @@ main {
     }
 
     /* Manifesto */
-    
+    #manifesto {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #manifesto h2 {
+        text-align: center;
+    }
 
     /* Gallery */
     #photos {
         column-count: 4;
     }
 }
-
 /* Media query: for larger devices (1200px and up) */
 @media screen and (min-width: 1200px) {
 
@@ -324,6 +331,12 @@ main {
     #cover-text {
         min-height: 20%;
     }
+
+    /* Manifesto */
+    #manifesto h2 {
+        font-size: 300%;
+    }
+
 
     #farmers div {
         /* Makes grid larger for wide screens, 

@@ -126,10 +126,10 @@ main {
 
 #cover-text {
     background-color: rgba(47, 86, 56, 0.6);
-    font-size: 130%;
+    font-size: 150%;
     position: absolute;
-    bottom: 30px;
-    width: 75%;
+    width: 100%;
+    bottom: 0;
     min-height: 35%;
     padding-top: 30px;
     padding-left: 10px;
@@ -282,10 +282,10 @@ main {
     
         /* Hero */
         #cover-text {
-            width: 60%;
-            min-height: 25%;
-            right: 0px;
-            font-size: 140%;
+            width: 100%;
+            min-height: 30%;
+            bottom: 0;
+            font-size: 250%;
         }
     
         /* Market section */
@@ -307,9 +307,10 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #ffffff;
     }
+
+    /* Manifesto */
     
-    /* Manifesto section */
-    
+
     /* Gallery */
     #photos {
         column-count: 4;
@@ -318,10 +319,17 @@ main {
 
 /* Media query: for larger devices (1200px and up) */
 @media screen and (min-width: 1200px) {
-#farmers div {
+
+    /* Hero */
+    #cover-text {
+        min-height: 20%;
+    }
+
+    #farmers div {
         /* Makes grid larger for wide screens, 
-                Alows a greater div expension for better display on large screens */
+                    Alows a greater div expension for better display on large screens */
         border: 10px solid white;
         flex-basis: 400px;
     }
+
 }

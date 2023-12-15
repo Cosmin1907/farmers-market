@@ -128,7 +128,7 @@ main {
 
 #register-form {
     color:#ffffff ;
-    background-color: rgba(47, 86, 56, 0.6);
+    background-color: rgba(47, 86, 56, 0.7);
     padding: 20px;
 }
 
@@ -246,6 +246,16 @@ main {
     line-height: 0;
 }
 
+/* Contact Form */
+
+#register:checked~.show{
+    display: block;
+}
+
+.show {
+    display: none;
+}
+
 /* Footer */
 #social-media {
     text-align: center;
@@ -322,6 +332,7 @@ main {
             flex-basis: 300px;
         }
 
+        /* Gallery */
         #photos {
             column-count: 3;
         }
@@ -344,11 +355,17 @@ main {
         text-align: center;
     }
 
+    /* Market */
+    #farmers div {
+        font-size: 110%;
+    }
+
     /* Gallery */
     #photos {
         column-count: 4;
     }
 }
+
 /* Media query: for larger devices (1200px and up) */
 @media screen and (min-width: 1200px) {
 
@@ -368,6 +385,7 @@ main {
                     Alows a greater div expension for better display on large screens */
         border: 10px solid white;
         flex-basis: 400px;
+        font-size: 150%;
     }
 
 }

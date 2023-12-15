@@ -256,6 +256,22 @@ main {
     display: none;
 }
 
+.submit-button {
+    border-radius: 10px;
+    background-color: #2f5638;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 110%;
+    margin-top: 10px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 2px;
+}
+
 /* Footer */
 #social-media {
     text-align: center;

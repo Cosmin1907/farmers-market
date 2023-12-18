@@ -235,17 +235,6 @@ main {
     text-align: center;
 }
 
-/* Gallery page */
-
-#photos img {
-    width: 100%;
-    line-height: 1em;
-}
-
-#photos {
-    line-height: 0;
-}
-
 /* Contact Form */
 
 #register:checked~.show{
@@ -348,12 +337,6 @@ main {
             flex-basis: 300px;
         }
 
-        /* Gallery */
-        #photos {
-            column-count: 3;
-        }
-}
-
 /* Media query: for large screen (992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
@@ -374,11 +357,6 @@ main {
     /* Market */
     #farmers div {
         font-size: 110%;
-    }
-
-    /* Gallery */
-    #photos {
-        column-count: 4;
     }
 }
 

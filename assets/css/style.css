@@ -229,7 +229,7 @@ main {
 #register {
     background-image: url(../images/vegetables.webp);
     background-size: cover;
-    padding: 20px 10% 0 10%;
+    padding: 20px 8% 20px 8%;
     flex-grow: 1;
 }
 
@@ -239,7 +239,7 @@ main {
     padding: 20px;
 }
 
-#register:checked~.show, 
+#register:checked~.show,
 #register:checked~.show-input {
     display: block;
 }
@@ -254,6 +254,8 @@ main {
     color: #ffffff;
     border: 2px solid #fff;
     border-radius: 2px;
+    width: 100%;
+    padding: 0 5px;
 }
 
 .text-input {
@@ -261,14 +263,17 @@ main {
     color: #ffffff;
     border: 2px solid #fff;
     border-radius: 2px;
+    width: 100%;
+    margin: 5px 0 10px 0;
+    padding: 0 5px;
 }
 
 .submit-button {
     border-radius: 10px;
     background-color: #2f5638;
     color: #ffffff;
-    padding: 15px;
-    font-size: 110%;
+    padding: 10px;
+    font-size: 100%;
     margin-top: 10px;
 }
 
@@ -341,56 +346,68 @@ main {
     }
 
     /* Market section */
-
     #farmers div {
         /* Makes grid larger for wide screens, 
                 Alows a greater div expension for better display on large screens */
         border: 5px solid white;
         flex-basis: 300px;
     }
+
+    /* Form Section */
+    #register-form {
+        max-width: 350px;
+        position: sticky;
+        top: 150px;
+        left: 10%;
+    }
 }
 
-    /* Media query: for large screen (992px and up) */
-    @media screen and (min-width: 992px) {
-        #menu a:hover {
-            border-bottom: 1px solid #ffffff;
-        }
-
-        /* Manifesto */
-        #manifesto {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        #manifesto h2 {
-            text-align: center;
-        }
-
-        /* Market */
-        #farmers div {
-            font-size: 110%;
-        }
+/* Media query: for large screen (992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #ffffff;
     }
 
-    /* Media query: for larger devices (1200px and up) */
-    @media screen and (min-width: 1200px) {
-
-        /* Hero */
-        #cover-text {
-            min-height: 20%;
-        }
-
-        /* Manifesto */
-        #manifesto h2 {
-            font-size: 300%;
-        }
-
-        #farmers div {
-            /* Makes grid larger for wide screens, 
-                        Allows a greater div expension for better display on large screens */
-            border: 10px solid white;
-            flex-basis: 400px;
-            font-size: 150%;
-        }
+    /* Manifesto */
+    #manifesto {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
+
+    #manifesto h2 {
+        text-align: center;
+    }
+
+    /* Market */
+    #farmers div {
+        font-size: 110%;
+    }
+}
+
+/* Media query: for larger devices (1200px and up) */
+@media screen and (min-width: 1200px) {
+
+    /* Hero */
+    #cover-text {
+        min-height: 20%;
+    }
+
+    /* Manifesto */
+    #manifesto h2 {
+        font-size: 300%;
+    }
+
+    #farmers div {
+        /* Makes grid larger for wide screens, 
+        Allows a greater div expension for better display on large screens */
+        border: 10px solid white;
+        flex-basis: 400px;
+        font-size: 150%;
+    }
+
+    /* Form Section */
+    #register-form {
+        max-width: 450px;
+    }
+}

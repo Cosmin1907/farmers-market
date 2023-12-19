@@ -293,6 +293,23 @@ main {
     padding: 5%;
 }
 
+/* Thank you page */ 
+/* Override the heading colors and dims */
+#thank-you h2, h3 {
+    color: #2f5638;
+    font-size: 300%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#thank-you p {
+    color: #2f5638;
+    line-height: 150%;
+    text-align: center;
+    padding: 20px;
+    font-size: 150%;
+}
+
 /* Web Accessibility */
 .sr-only {
     border: 0;

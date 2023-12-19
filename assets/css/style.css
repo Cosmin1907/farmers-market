@@ -119,19 +119,6 @@ main {
     flex-direction: column;
 }
 
-#register {
-    background-image: url(../images/vegetables.webp);
-    background-size: cover;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
-}
-
-#register-form {
-    color: #ffffff;
-    background-color: rgba(47, 86, 56, 0.7);
-    padding: 20px;
-}
-
 /* Hero Section */
 #hero {
     height: 600px;
@@ -239,12 +226,41 @@ main {
 
 /* Contact Form */
 
-#register:checked~.show {
+#register {
+    background-image: url(../images/vegetables.webp);
+    background-size: cover;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#register-form {
+    color: #ffffff;
+    background-color: rgba(47, 86, 56, 0.7);
+    padding: 20px;
+}
+
+#register:checked~.show, 
+#register:checked~.show-input {
     display: block;
 }
 
 .show {
     display: none;
+}
+
+.show-input {
+    display: none;
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid #fff;
+    border-radius: 2px;
+}
+
+.text-input {
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid #fff;
+    border-radius: 2px;
 }
 
 .submit-button {
@@ -254,13 +270,6 @@ main {
     padding: 15px;
     font-size: 110%;
     margin-top: 10px;
-}
-
-.text-input {
-    background: transparent;
-    color: #fff;
-    border: 2px solid #fff;
-    border-radius: 2px;
 }
 
 /* Footer */

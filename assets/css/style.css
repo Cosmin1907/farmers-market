@@ -295,7 +295,7 @@ main {
 
 /* Thank you page */ 
 /* Override the heading colors and dims */
-#thank-you h2, h3 {
+#thank-you h2 {
     color: #2f5638;
     font-size: 300%;
     text-align: center;

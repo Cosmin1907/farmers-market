@@ -237,6 +237,7 @@ main {
     color: #ffffff;
     background-color: rgba(47, 86, 56, 0.7);
     padding: 20px;
+    max-width: 300px;
 }
 
 #register:checked~.show,
@@ -327,11 +328,18 @@ main {
 
 /* Media query: large and landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-    #photos {
-        column-count: 2;
-        column-gap: 0;
+    #farmers div {
+        /* will not display 3 collums till tablet size */
+        flex-basis: 255px;
     }
-}
+
+    /* Form Section */
+    #register-form {
+        max-width: 375px;
+        position: sticky;
+        top: 150px;
+        left: 10%;
+    }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -385,13 +393,6 @@ main {
         flex-basis: 300px;
     }
 
-    /* Form Section */
-    #register-form {
-        max-width: 350px;
-        position: sticky;
-        top: 150px;
-        left: 10%;
-    }
 }
 
 /* Media query: for large screen (992px and up) */
@@ -440,6 +441,6 @@ main {
 
     /* Form Section */
     #register-form {
-        max-width: 450px;
+        max-width: 425px;
     }
 }

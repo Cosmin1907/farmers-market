@@ -1,39 +1,52 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Farmers Market
 
-Welcome,
+## Overview
+Farmers Market is a website dedicated to connecting local farmers with nearby consumers, providing access to fresh and cost-effective agricultural products. The landing page highlights the positive impact of supporting local farmers on both the community and the economy. The website also features a contact form with an option for new farmers to express interest and join the platform.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Responsive Mockup
+Include an image
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Features
+Existing Features
+Navigation Bar
+The responsive navigation bar is featured on all pages, offering easy access to the landing page, market, gallery, and contact page.
 
-## Codeanywhere Reminders
+## Landing Page
+The landing page emphasizes the benefits of local farmers for the community and economy, encouraging users to support and engage with farmers in their vicinity.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Contact Form
+The contact form provides a convenient way for users to get in touch. It includes a special option for new farmers to express interest and join the platform by clicking an additional box.
 
-`python3 -m http.server`
+## Features Left to Implement
+.........
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Testing
+..........
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Validator Testing:
 
-`http_server`
+HTML: Passed W3C validator with no errors.
+CSS: Passed Jigsaw validator with no errors.
+Browsers and Screen Sizes:
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The website was tested on various browsers and screen sizes to ensure a consistent and user-friendly experience.
+Unfixed Bugs:
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+No major bugs were left unfixed. Any minor issues or limitations are detailed here.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Deployment
+The Farmers Market website is deployed on GitHub Pages. To deploy the site:
 
-To log into the Heroku toolbelt CLI:
+Navigate to the Settings tab in the GitHub repository.
+From the source section drop-down menu, select the Master Branch.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Credits
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Content
+Content on the landing page created with a focus on local farmers' benefits for the community and economy.
+.....................................
 
----
+## Media
+Images and visual elements sourced from Open Source repositories.
 
-Happy coding!
+Icons in the footer taken from Font Awesome.

@@ -3,8 +3,7 @@
 ## Overview
 Farmers Market is a website dedicated to connecting local farmers with nearby consumers, providing access to fresh and cost-effective agricultural products. The landing page highlights the positive impact of supporting local farmers on both the community and the economy. The website also features a contact form with an option for new farmers to express interest and join the platform.
 
-## Responsive Mockup
-Include an image
+![Responsice Mockup]()
 
 ## Features
 Existing Features

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
 
 
-/* Asterisk wildcard selector, this will override default styles added by the browser */
+/* Asterisk wildcard selector, reset default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
@@ -93,28 +93,23 @@ nav {
 /* Nav toggle button styling */
 .nav-toggle-label {
     padding: 5px;
-    /* Default color */
     background-color: #2f5638;
     color: #fff;
     border: none;
     border-radius: 5px;
-    /* Adjust the size as needed to match h1 */
     font-size: 25px;
 }
 
 /* Additional styling for when checkbox is checked */
 #nav-toggle:checked+.nav-toggle-label {
-    /* Checked color */
     background-color: #3C9756;
 
 }
 
 /* Main content */
 main {
-    /* Main element will take up surplus space and push futter down */
     flex: 1 0 auto;
     margin-top: 50px;
-    /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
 }
@@ -138,6 +133,7 @@ main {
     padding-left: 10px;
 }
 
+/* Maniffsto Section */
 #manifesto {
     color: #2f5638;
     width: 90%;
@@ -194,11 +190,8 @@ main {
     color: #ffffff;
     padding: 10px;
     text-align: left;
-    /* It won't wrap on screens narrower than 400px. 
-    Each div will extend to occupy the entire width of its row. */
     flex-basis: 200px;
     flex-grow: 1;
-    /* Creates a grid over the background */
     border: 2px solid white;
 }
 
@@ -388,8 +381,6 @@ main {
 
     /* Market section */
     #farmers div {
-        /* Makes grid larger for wide screens, 
-                Alows a greater div expension for better display on large screens */
         border: 5px solid white;
         flex-basis: 300px;
     }
@@ -433,8 +424,6 @@ main {
     }
 
     #farmers div {
-        /* Makes grid larger for wide screens, 
-        Allows a greater div expension for better display on large screens */
         border: 10px solid white;
         flex-basis: 400px;
         font-size: 150%;

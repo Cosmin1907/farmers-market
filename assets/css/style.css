@@ -314,7 +314,7 @@ main {
 /* Web Accessibility */
 .sr-only {
     border: 0;
-    clip: rect(0 0 0 0);
+    clip-path: inset(0 0 0 0);
     -webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
     clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
     height: 1px;

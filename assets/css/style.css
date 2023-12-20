@@ -240,8 +240,8 @@ main {
     max-width: 300px;
 }
 
-#register:checked~.show,
-#register:checked~.show-input {
+#register-farmer:checked~.show,
+#register-farmer:checked~.show-input {
     display: block;
 }
 

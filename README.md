@@ -14,7 +14,7 @@ Farmers Market is a website dedicated to connecting local farmers with nearby co
   - The responsive navigation bar is featured on all pages, offering easy access to the landing page, market, and contact page.
   - This feature enables users to effortlessly move between pages on any device, eliminating the need to use the 'back' button to return to the previous page.
 
-![Navigation Bar]()
+![Navigation Bar](docs/media/navbar.png)
 
 - __Landing Page Image__
   
@@ -22,7 +22,7 @@ Farmers Market is a website dedicated to connecting local farmers with nearby co
  
   - Together the image and the text convey the message that such exchanges contribute to individual well-being and enhance community health.
 
-![Hero Image]()
+![Hero Image](docs/media/heroindex.png)
 
 - __Values__
   
@@ -30,7 +30,7 @@ Farmers Market is a website dedicated to connecting local farmers with nearby co
   
   - Additionally, it encourages users to support and engage with local farmers through compelling content and messaging, aiming to motivate participation in activities that strengthen the bond between consumers and the agricultural community.
 
-![Core Values]()
+![Core Values](docs/media/values.png)
 
 - __The Footer__
 
@@ -38,7 +38,7 @@ Farmers Market is a website dedicated to connecting local farmers with nearby co
   
   - This section is beneficial for users, promoting connection and engagement through social media.
 
-![Footer]()
+![Footer](docs/media/footer.png)
 
 -__Contact Form__
 

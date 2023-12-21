@@ -1,7 +1,7 @@
 # Farmers Market
 
 ## Overview
-Farmers Market is a website dedicated to connecting local farmers with nearby consumers, providing access to fresh and cost-effective agricultural products. The landing page highlights the positive impact of supporting local farmers on both the community and the economy. The website also features a contact form with an option for new farmers to express interest and join the platform.
+Farmers Market is a website dedicated to connecting local farmers with nearby consumers, providing access to fresh and cost-effective agricultural products. The landing page highlights the positive impact of supporting local farmers on both the community and the economy. The website also features a contact form with an option for new farmers to express interest and join the platform. View the live site [here](https://cosmin1907.github.io/farmers-market/)
 
 ![Responsice Mockup](docs/media/marketmockup.png)
 
@@ -40,7 +40,11 @@ Farmers Market is a website dedicated to connecting local farmers with nearby co
 
 ![Footer](docs/media/footer.png)
 
--__Contact Form__
+- __Market__
+  - Farmers' contact phone numbers and addresses are prominently displayed, facilitating direct communication between consumers and producers.
+  - The photos provide a snapshot of the diverse products available. Images and text seamlessly blend for an engaging browsing experience.
+
+- __Contact Form__
 
 The contact form provides a convenient way for users to get in touch. It includes a special option for new farmers to express interest and join the platform by clicking an additional box.
 

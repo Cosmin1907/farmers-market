@@ -40,9 +40,22 @@ Farmers Market is a website dedicated to connecting local farmers with nearby co
 
 ![Footer](docs/media/footer.png)
 
-- __Market__
-  - Farmers' contact phone numbers and addresses are prominently displayed, facilitating direct communication between consumers and producers.
-  - The photos provide a snapshot of the diverse products available. Images and text seamlessly blend for an engaging browsing experience.
+## Market Page
+
+- __Main Purpose__
+
+  - This page is designed to connect consumers with farmers, offering a direct line to the source of fresh produce and artisanal goods.
+  -  It features a thematic hero image of a cultivated field, emphasizing its focus on a farmers market.
+  
+![Market Hero Image](docs/media/heromarketsnip.PNG)
+  
+  - __Main Features__
+  
+    - Farmers' contact phone numbers and addresses are prominently displayed, facilitating direct communication between consumers and producers.
+    - The photos provide a snapshot of the diverse products available. Images and text seamlessly blend for an engaging browsing experience.
+  
+
+![Market Overview](docs/media/gallery.PNG)
 
 - __Contact Form__
 
@@ -61,20 +74,17 @@ CSS: Passed Jigsaw validator with no errors.
 Browsers and Screen Sizes:
 
 The website was tested on various browsers and screen sizes to ensure a consistent and user-friendly experience.
-Unfixed Bugs:
+* Unfixed Bugs:
 
 No major bugs were left unfixed. Any minor issues or limitations are detailed here.
 
 ## Deployment
-The Farmers Market website is deployed on GitHub Pages. To deploy the site:
-
-Navigate to the Settings tab in the GitHub repository.
-From the source section drop-down menu, select the Master Branch.
+The Farmers Market website is deployed on GitHub Pages. 
 
 ## Credits
 
-## Content
-Content on the landing page created with a focus on local farmers' benefits for the community and economy.
+## Design
+
 .....................................
 
 ## Media

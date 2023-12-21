@@ -79,7 +79,23 @@ Farmers Market is a website dedicated to connecting local farmers with nearby co
 
 ## Design
 
-.....................................
+### Wireframes
+
+Home Page
+
+![Home Page](docs/media/homewire.PNG)
+
+Market Page
+
+![Market Page](docs/media/marketwire.PNG)
+
+Contact page
+
+![Contact page](docs/media/contactwire.PNG)
+
+Thank You Page
+
+![Thank you page](docs/media/tywire.PNG)
 
 ## Testing
 

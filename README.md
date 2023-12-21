@@ -57,9 +57,22 @@ Farmers Market is a website dedicated to connecting local farmers with nearby co
 
 ![Market Overview](docs/media/gallery.PNG)
 
-- __Contact Form__
+  ## Contact Page
 
-The contact form provides a convenient way for users to get in touch. It includes a special option for new farmers to express interest and join the platform by clicking an additional box.
+- __Main Purpose__
+  
+  - The contact page provides a convenient way for users to get in touch trough the contact form. 
+  
+![Contact Form]()
+  
+- __Aditional Features__
+  - A dedicated checkbox option has been implemented to reveal previously hidden fields, enabling new farmers to express interest and join the platform.
+  - The additional fields require users to provide both direct contact information and detailed product descriptions.
+  - Upon successful submission of the contact form, users will be directed to a dedicated thank-you page, confirming the successful submission and suggesting that our team will promptly review it.
+
+![Contact Form revealed]()
+![Thank you Page]()
+
 
 ## Features Left to Implement
 .........

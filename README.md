@@ -77,17 +77,24 @@ Farmers Market is a website dedicated to connecting local farmers with nearby co
 ## Features Left to Implement
 .........
 
-## Testing
-..........
+## Design
 
-## Validator Testing:
+.....................................
+
+## Testing
+
+### Responsivness
+### Accessibility
+### Functional Testing
+
+-__Validator Testing__
 
 HTML: Passed W3C validator with no errors.
 CSS: Passed Jigsaw validator with no errors.
 Browsers and Screen Sizes:
 
 The website was tested on various browsers and screen sizes to ensure a consistent and user-friendly experience.
-* Unfixed Bugs:
+- Unfixed Bugs:
 
 No major bugs were left unfixed. Any minor issues or limitations are detailed here.
 
@@ -96,11 +103,9 @@ The Farmers Market website is deployed on GitHub Pages.
 
 ## Credits
 
-## Design
+-__Media__
+- Images and visual elements sourced from Open Source repositories.
+- Icons in the footer taken from Font Awesome.
 
-.....................................
+-__Content__
 
-## Media
-Images and visual elements sourced from Open Source repositories.
-
-Icons in the footer taken from Font Awesome.

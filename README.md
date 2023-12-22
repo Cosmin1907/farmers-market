@@ -1,6 +1,7 @@
 # Farmers Market
 
 ## Overview
+
 Farmers Market is a website dedicated to connecting local farmers with nearby consumers, providing access to fresh and cost-effective agricultural products. The landing page highlights the positive impact of supporting local farmers on both the community and the economy. The website also features a contact form with an option for new farmers to express interest and join the platform. View the live site [here](https://cosmin1907.github.io/farmers-market/)
 
 ![Responsice Mockup](docs/media/mockup.PNG)
@@ -26,8 +27,8 @@ Farmers Market is a website dedicated to connecting local farmers with nearby co
 
 - __Landing Page Image__
   
-  - The landing page incorporates an image with overlaid text, providing users a direct view of the project's core values, which focus on enhancing both individual health and community well-being. 
- 
+  - The landing page incorporates an image with overlaid text, providing users a direct view of the project's core values, which focus on enhancing both individual health and community well-being.
+  
   - Together the image and the text convey the message that such exchanges contribute to individual well-being and enhance community health.
 
 ![Hero Image](docs/media/heroindex.png)
@@ -40,30 +41,27 @@ Farmers Market is a website dedicated to connecting local farmers with nearby co
 
 ![Core Values](docs/media/values.png)
 
-
-
 ## Market Page
 
 - __Main Purpose__
 
   - This page is designed to connect consumers with farmers, offering a direct line to the source of fresh produce and artisanal goods.
-  -  It features a thematic hero image of a cultivated field, emphasizing its focus on a farmers market.
+  - It features a thematic hero image of a cultivated field, emphasizing its focus on a farmers market.
   
 ![Market Hero Image](docs/media/heromarketsnip.PNG)
   
-  - __Main Features__
+- __Main Features__
   
-    - Farmers' contact phone numbers and addresses are prominently displayed, facilitating direct communication between consumers and producers.
-    - The photos provide a snapshot of the diverse products available. Images and text seamlessly blend for an engaging browsing experience.
+  - Farmers' contact phone numbers and addresses are prominently displayed, facilitating direct communication between consumers and producers.
+  - The photos provide a snapshot of the diverse products available. Images and text seamlessly blend for an engaging browsing experience.
   
-
 ![Market Overview](docs/media/gallery.PNG)
 
-  ## Contact Page
+## Contact Page
 
 - __Main Purpose__
   
-  - The contact page provides a convenient way for users to get in touch trough the contact form. 
+  - The contact page provides a convenient way for users to get in touch trough the contact form.
   
 ![Contact Form](docs/media/contactform.PNG)
   
@@ -74,7 +72,6 @@ Farmers Market is a website dedicated to connecting local farmers with nearby co
 
 ![Contact Form revealed](docs/media/formrevealed.PNG)
 ![Thank you Page](docs/media/thankyou.PNG)
-
 
 ## Features Left to Implement
 
@@ -103,6 +100,7 @@ Thank You Page
 ## Testing
 
 ### Responsivness
+
 ### Accessibility
 
 [Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
@@ -118,8 +116,8 @@ Testing was focused to ensure the following criteria were met:
 - Aria properties have been implemented correctly
 - WCAG 2.1 Coding best practices being followed
   
-  * Issue: 
-  * Fix: 
+  - Issue:
+  - Fix:
 
 ### Functional Testing
 
@@ -131,10 +129,9 @@ Browsers and Screen Sizes:
 
 The website was tested on various browsers and screen sizes to ensure a consistent and user-friendly experience.
 
-### Unfixed Bugs:
+### Unfixed Bugs
 
 No major bugs were left unfixed. Any minor issues or limitations are detailed here:
-
 
 ## Deployment
 
@@ -172,7 +169,6 @@ Navigate to the GitHub Repository you want to clone to use locally:
 
 The project will now of been cloned on your local machine for use.
 
-
 ## Credits
 
 - __Media__
@@ -180,4 +176,3 @@ The project will now of been cloned on your local machine for use.
 - Icons in the footer taken from Font Awesome.
 
 - __Content__
-

@@ -110,12 +110,48 @@ CSS: Passed Jigsaw validator with no errors.
 Browsers and Screen Sizes:
 
 The website was tested on various browsers and screen sizes to ensure a consistent and user-friendly experience.
-- Unfixed Bugs:
 
-No major bugs were left unfixed. Any minor issues or limitations are detailed here.
+### Unfixed Bugs:
+
+No major bugs were left unfixed. Any minor issues or limitations are detailed here:
+
 
 ## Deployment
-The Farmers Market website is deployed on GitHub Pages. 
+
+### Version Control
+
+The site was created using Codeanywhere code editor and pushed to github to the repository ‘farmers-market’.
+
+The following git commands were used throughout development to push code to the remote repo:
+
+```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
+
+```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
+
+```git push``` - This command was used to push all committed code to the repository on github.
+
+### Deployment to Github Pages
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the menu on left select 'Pages'
+  - From the Build and deployment section, Branch sub section drop-down menu, select: main Click 'Save'
+  - A live link will be displayed when published successfully.
+
+The live link can be found here - <https://cosmin1907.github.io/farmers-market/>
+
+### Clone the Repository Code Locally
+
+Navigate to the GitHub Repository you want to clone to use locally:
+
+- Click on the code drop down button
+- Click on HTTPS
+- Copy the repository link to the clipboard
+- Open your IDE of choice (git must be installed for the next steps)
+- Type git clone copied-git-url into the IDE terminal
+
+The project will now of been cloned on your local machine for use.
+
 
 ## Credits
 

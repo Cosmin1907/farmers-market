@@ -101,6 +101,36 @@ Thank You Page
 
 ### Responsivness
 
+- __Testing Criteria__
+
+Conducted testing on all pages for responsiveness across screen sizes from 320px upwards, following WCAG 2.1 Reflow criteria.
+Utilized Chrome, Edge, Firefox, and Opera browsers.
+
+- __Steps to Test__
+
+Opened the browser and navigated to Tacos Travels.
+Opened developer tools and set to responsive mode.
+Decreased width to 320px, set zoom to 50%, and clicked/dragged the responsive window to maximum width.
+testede phone numbers
+
+- __Expected__
+
+Website should be responsive on all screen sizes.
+No pixelation or stretching of images.
+No horizontal scroll.
+No overlapping elements.
+
+- __Actual__
+???
+
+- __Additional Device Testing__
+
+Confirmed responsive design on the following devices:
+Ipad Pro
+iPhone SE
+
+Overall, the website demonstrated responsive behavior as intended
+
 ### Accessibility
 
 [Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
@@ -120,6 +150,26 @@ Testing was focused to ensure the following criteria were met:
   - Fix:
 
 ### Functional Testing
+
+- __Navigation__
+
+Confirmed all navigation links lead to the correct pages.
+Verified links on all pages, ensuring expected navigation.
+
+- __Forms__
+
+Tested the contact form for various scenarios.
+Correct inputs led to successful submission and redirection.
+Detected and displayed appropriate error messages for missing or incorrect inputs.
+
+- __Footer__
+
+Validated Social Media Icons: Confirmed they open in new tabs and display correct hover color.
+Checked Footer Contact Information:
+Tested phone number link, confirming it prompts the call option.
+Tested email address link, confirming it opens the default email application.
+
+In summary, comprehensive testing covered navigation, form functionality, and footer elements, ensuring a smooth user experience.
 
 ### Validator Testing
 

@@ -172,7 +172,9 @@ The project will now of been cloned on your local machine for use.
 ## Credits
 
 - __Media__
-- Images and visual elements sourced from Open Source repositories.
-- Icons in the footer taken from Font Awesome.
+  - Images and visual elements sourced from Open Source repositories:
+  
+  - Icons from Font Awesome were utilized not only in the footer but also in other sections such as the navigation bar and in various places throughout the website to enhance user experience and visual elements.
 
 - __Content__
+  - The content developed for this website includes mock details and names for farmers to ensure privacy. This approach allows effective demonstration of the website's features while respecting the confidentiality of real individuals.

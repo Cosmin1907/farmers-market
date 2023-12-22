@@ -103,12 +103,12 @@ Thank You Page
 
 - __Testing Criteria__
 
-Conducted testing on all pages for responsiveness across screen sizes from 320px upwards, following WCAG 2.1 Reflow criteria.
+Conducted testing on all pages for responsiveness across screen sizes from 320px upwards, following [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html)
 Utilized Chrome, Edge, Firefox, and Opera browsers.
 
 - __Steps to Test__
 
-Opened the browser and navigated to Tacos Travels.
+Opened the browser and navigated to [Farmers Market](https://cosmin1907.github.io/farmers-market/).
 Opened developer tools and set to responsive mode.
 Decreased width to 320px, set zoom to 50%, and clicked/dragged the responsive window to maximum width.
 testede phone numbers

@@ -7,14 +7,22 @@ Farmers Market is a website dedicated to connecting local farmers with nearby co
 
 ## Features
 
-### Existing Features
-
 - __Navigation Bar__
   
   - The responsive navigation bar is featured on all pages, offering easy access to the landing page, market, and contact page.
   - This feature enables users to effortlessly move between pages on any device, eliminating the need to use the 'back' button to return to the previous page.
 
 ![Navigation Bar](docs/media/navbar.png)
+
+- __The Footer__
+
+  - The footer of the page features links to Farmers Market associated social media platforms, which open in new tabs for user-friendly navigation.
+  
+  - This section is beneficial for users, promoting connection and engagement through social media.
+
+![Footer](docs/media/footer.png)
+
+## Landing Page
 
 - __Landing Page Image__
   
@@ -32,13 +40,7 @@ Farmers Market is a website dedicated to connecting local farmers with nearby co
 
 ![Core Values](docs/media/values.png)
 
-- __The Footer__
 
-  - The footer of the page features links to Farmers Market associated social media platforms, which open in new tabs for user-friendly navigation.
-  
-  - This section is beneficial for users, promoting connection and engagement through social media.
-
-![Footer](docs/media/footer.png)
 
 ## Market Page
 
@@ -121,7 +123,7 @@ Testing was focused to ensure the following criteria were met:
 
 ### Functional Testing
 
--__Validator Testing__
+- __Validator Testing__
 
 HTML: Passed W3C validator with no errors.
 CSS: Passed Jigsaw validator with no errors.
@@ -173,9 +175,9 @@ The project will now of been cloned on your local machine for use.
 
 ## Credits
 
--__Media__
+- __Media__
 - Images and visual elements sourced from Open Source repositories.
 - Icons in the footer taken from Font Awesome.
 
--__Content__
+- __Content__
 

@@ -121,14 +121,20 @@ Testing was focused to ensure the following criteria were met:
 
 ### Functional Testing
 
-- __Validator Testing__
+### Validator Testing
 
-HTML: Passed W3C validator with no errors.
-CSS: Passed Jigsaw validator with no errors.
-Browsers and Screen Sizes:
-
-The website was tested on various browsers and screen sizes to ensure a consistent and user-friendly experience.
-
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+  
+  ![Home Validator Results](docs/media/indexvalidator.PNG)
+  ![Market Validator Results](docs/media/marketvalidator.PNG)
+  ![Contact Validator Results](docs/media/contactvalidator.PNG)
+  
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
+  
+  ![CSS Validator Results](docs/media/cssvalidator.PNG)
+  
 ### Unfixed Bugs
 
 No major bugs were left unfixed. Any minor issues or limitations are detailed here:

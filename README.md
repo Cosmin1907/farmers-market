@@ -116,18 +116,20 @@ testede phone numbers
 - __Expected__
 
 Website should be responsive on all screen sizes.
-No pixelation or stretching of images.
-No horizontal scroll.
-No overlapping elements.
+  1. No pixelation or stretching of images.
+  2. No horizontal scroll.
+  3. No overlapping elements.
 
 - __Actual__
-???
+
+  - Issue: The website experienced an irregularity in presenting the row count when viewed on medium-sized screens.
+  - Fix: Modified the media screen to achieve a smoother transition between different screen sizes.
 
 - __Additional Device Testing__
 
 Confirmed responsive design on the following devices:
-Ipad Pro
-iPhone SE
+  - Ipad Pro
+  - iPhone SE
 
 Overall, the website demonstrated responsive behavior as intended
 
@@ -146,8 +148,8 @@ Testing was focused to ensure the following criteria were met:
 - Aria properties have been implemented correctly
 - WCAG 2.1 Coding best practices being followed
   
-  - Issue:
-  - Fix:
+  - Issue: Error involving an empty form label, attributed to the concealed checkbox employed for toggling the navigation menu. 
+  - Fix: Applied ( .sr-only ) CSS technique to hide the specified element, resolving the hidden checkbox issue for navigation. Enhances accessibility with clear explanations for blind or low-vision users.
 
 ### Functional Testing
 
@@ -231,10 +233,14 @@ The project will now of been cloned on your local machine for use.
 
 ## Credits
 
+I incorporated elements from the Love Running code for the navbar and header, customizing them to align with my vision for the farmers market site. Additionally, I integrated components from the gallery and meetup sections, combining them uniquely to create a new page.
+
+I drew inspiration and incorporated additional code from:
+
 - __Media__
   - Images and visual elements sourced from Open Source repositories:
   
-  - Icons from Font Awesome were utilized not only in the footer but also in other sections such as the navigation bar and in various places throughout the website to enhance user experience and visual elements.
+  - Icons from [Font Awesome](https://fontawesome.com/) were utilized not only in the footer but also in other sections such as the navigation bar and in various places throughout the website to enhance user experience and visual elements.
 
 - __Content__
   - The content developed for this website includes mock details and names for farmers to ensure privacy. This approach allows effective demonstration of the website's features while respecting the confidentiality of real individuals.

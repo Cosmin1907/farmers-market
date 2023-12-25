@@ -185,6 +185,10 @@ In summary, comprehensive testing covered navigation, form functionality, and fo
   
   ![CSS Validator Results](docs/media/cssvalidator.PNG)
   
+### Lighthouse Testing
+
+
+
 ### Unfixed Bugs
 
 No major bugs were left unfixed. Any minor issues or limitations are detailed here:

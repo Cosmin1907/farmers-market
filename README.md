@@ -104,7 +104,7 @@ Thank You Page
 - **Testing Criteria**
 
 Conducted testing on all pages for responsiveness across screen sizes from 320px upwards, following [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html)
-Utilized Chrome, Edge, Firefox, and Opera browsers.
+Utilized Chrome, Edge, Firefox browsers.
 
 - **Steps to Test**
 
@@ -160,7 +160,7 @@ Testing was focused to ensure the following criteria were met:
 | Social Icons-X  | Clicking will open a new window, redirecting the user to the X page.| Clicked icon  | Redirected to the X page in a new window.   | Pass  |
 | Social Icons-Youtube   | Clicking will open a new window, redirecting the user to the Youtube page.  | Clicked icon  | Redirected to the Youtube page in a new window.   | Pass |
 | **Contact Form** | | | | |
-| Contact form | When items were left out, there was a message asking to fill the section in. | Clicked submit while leaving the form unfilled | Form requested sections to be filled in. | Pass |
+| Contact form | If certain items were omitted, a message prompted the user to fill in the corresponding section. | Clicked submit while leaving the form unfilled | Form requested sections to be filled in. | Pass |
 | Contact form | Typed everything in but email is in the wrong format | Clicked submit | Form requested the @ element to be included | Pass |
 | Contact Form | Typed everything correct and should expect the form to submit | Clicked submit | Form submitted | Pass |
 | Checkbox Interaction | Checked the box and tested if hidden fields appeared | Checked box  | Hidden fields appeared | Pass |

@@ -195,6 +195,8 @@ In summary, comprehensive testing covered navigation, form functionality, and fo
 
 No major bugs were left unfixed. Any minor issues or limitations are detailed here:
 
+Additional warnings were identified regarding labels connected to hidden content on the contact form. After investigating, I determined that this issue does not hinder functionality or accessibility, and therefore, no further action is required.
+
 ## Deployment
 
 ### Version Control
@@ -236,6 +238,13 @@ The project will now of been cloned on your local machine for use.
 I incorporated elements from the Love Running code for the navbar and header, customizing them to align with my vision for the farmers market site. Additionally, I integrated components from the gallery and meetup sections, combining them uniquely to create a new page.
 
 I drew inspiration and incorporated additional code from:
+
+[Medium Web accessibility](https://medium.com/web-accessibility-tips-tricks-and-techniques-for/web-accessibility-tip-visually-hidden-text-for-screen-readers-a52d954d9711#:~:text=sr%2Donly%20declaration%20block%20does,invisible%20to%20the%20human%20eye)
+
+[Mmdn](<https://developer.mozilla.org/>)
+
+[W3schools](https://www.w3schools.com/css/css3_flexbox_responsive.asp)
+
 
 - __Media__
   - Images and visual elements sourced from Open Source repositories:

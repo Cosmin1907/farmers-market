@@ -203,6 +203,10 @@ In summary, comprehensive testing covered navigation, form functionality, and fo
 
 ### Lighthouse Testing
 
+[Home Testing]()
+[Market Testing]()
+[Contact testing]()
+
 - **Additional Device Testing**
 
 Aditional testing was performed on the following devices:

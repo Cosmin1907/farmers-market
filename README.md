@@ -8,64 +8,64 @@ Farmers Market is a website dedicated to connecting local farmers with nearby co
 
 ## Features
 
-- __Navigation Bar__
-  
+- **Navigation Bar**
+
   - The responsive navigation bar is featured on all pages, offering easy access to the landing page, market, and contact page.
   - This feature enables users to effortlessly move between pages on any device, eliminating the need to use the 'back' button to return to the previous page.
 
 ![Navigation Bar](docs/media/navbar.png)
 
-- __The Footer__
+- **The Footer**
 
   - The footer of the page features links to Farmers Market associated social media platforms, which open in new tabs for user-friendly navigation.
-  
+
   - This section is beneficial for users, promoting connection and engagement through social media.
 
 ![Footer](docs/media/footer.png)
 
 ## Landing Page
 
-- __Landing Page Image__
-  
+- **Landing Page Image**
+
   - The landing page incorporates an image with overlaid text, providing users a direct view of the project's core values, which focus on enhancing both individual health and community well-being.
-  
+
   - Together the image and the text convey the message that such exchanges contribute to individual well-being and enhance community health.
 
 ![Hero Image](docs/media/heroindex.png)
 
-- __Values__
-  
+- **Values**
+
   - This section emphasizes the positive impact of local farmers on the community and economy, fostering awareness and appreciation for their vital role in shaping the local landscape.
-  
+
   - Additionally, it encourages users to support and engage with local farmers through compelling content and messaging, aiming to motivate participation in activities that strengthen the bond between consumers and the agricultural community.
 
 ![Core Values](docs/media/values.png)
 
 ## Market Page
 
-- __Main Purpose__
+- **Main Purpose**
 
   - This page is designed to connect consumers with farmers, offering a direct line to the source of fresh produce and artisanal goods.
   - It features a thematic hero image of a cultivated field, emphasizing its focus on a farmers market.
-  
+
 ![Market Hero Image](docs/media/heromarketsnip.PNG)
-  
-- __Main Features__
-  
+
+- **Main Features**
+
   - Farmers' contact phone numbers and addresses are prominently displayed, facilitating direct communication between consumers and producers.
   - The photos provide a snapshot of the diverse products available. Images and text seamlessly blend for an engaging browsing experience.
-  
+
 ![Market Overview](docs/media/gallery.PNG)
 
 ## Contact Page
 
-- __Main Purpose__
-  
+- **Main Purpose**
+
   - The contact page provides a convenient way for users to get in touch trough the contact form.
-  
+
 ![Contact Form](docs/media/contactform.PNG)
-  
-- __Aditional Features__
+
+- **Aditional Features**
   - A dedicated checkbox option has been implemented to reveal previously hidden fields, enabling new farmers to express interest and join the platform.
   - The additional fields require users to provide both direct contact information and detailed product descriptions.
   - Upon successful submission of the contact form, users will be directed to a dedicated thank-you page, confirming the successful submission and suggesting that our team will promptly review it.
@@ -101,35 +101,30 @@ Thank You Page
 
 ### Responsivness
 
-- __Testing Criteria__
+- **Testing Criteria**
 
 Conducted testing on all pages for responsiveness across screen sizes from 320px upwards, following [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html)
 Utilized Chrome, Edge, Firefox, and Opera browsers.
 
-- __Steps to Test__
+- **Steps to Test**
 
 Opened the browser and navigated to [Farmers Market](https://cosmin1907.github.io/farmers-market/).
 Opened developer tools and set to responsive mode.
 Decreased width to 320px, set zoom to 50%, and clicked/dragged the responsive window to maximum width.
 testede phone numbers
 
-- __Expected__
+- **Expected**
 
 Website should be responsive on all screen sizes.
-  1. No pixelation or stretching of images.
-  2. No horizontal scroll.
-  3. No overlapping elements.
 
-- __Actual__
+1. No pixelation or stretching of images.
+2. No horizontal scroll.
+3. No overlapping elements.
+
+- **Actual**
 
   - Issue: The website experienced an irregularity in presenting the row count when viewed on medium-sized screens.
   - Fix: Modified the media screen to achieve a smoother transition between different screen sizes.
-
-- __Additional Device Testing__
-
-Confirmed responsive design on the following devices:
-  - Ipad Pro
-  - iPhone SE
 
 Overall, the website demonstrated responsive behavior as intended
 
@@ -147,24 +142,41 @@ Testing was focused to ensure the following criteria were met:
 - HTML page lang attribute has been set
 - Aria properties have been implemented correctly
 - WCAG 2.1 Coding best practices being followed
-  
-  - Issue: Error involving an empty form label, attributed to the concealed checkbox employed for toggling the navigation menu. 
+
+  - Issue: Error involving an empty form label, attributed to the concealed checkbox employed for toggling the navigation menu.
   - Fix: Applied ( .sr-only ) CSS technique to hide the specified element, resolving the hidden checkbox issue for navigation. Enhances accessibility with clear explanations for blind or low-vision users.
 
 ### Functional Testing
 
-- __Navigation__
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| ---------------------- | -------------------------------------------------------------------------------- | ---------------------------------------------- | ------------------------------------------------- | --------- |
+| **Navbar** | | | | |
+| Home  | Clicking will redirect the user to the home page.                      | Clicked Home | Redirected to the Home page.  | Pass  |
+| Market       | Clicking will redirect the user to the market page.  | Clicked Market  | Redirected to the Market page.   | Pass |
+| Contact | Clicking will redirect the user to the home page.                   | Clicked Contact | Redirected to the Contact page. | Pass      |
+| **Footer**  | | | | |
+| Social Icons-Facebook  | Clicking will open a new window, redirecting the user to the Facebook page.  | Clicked icon   | Redirected to the Facebook page in a new window.  | Pass  |
+| Social Icons-Instagram | Clicking will open a new window, redirecting the user to the Instagram page. | Clicked icon   | Redirected to the Instagram page in a new window. | Pass  |
+| Social Icons-X  | Clicking will open a new window, redirecting the user to the X page.| Clicked icon  | Redirected to the X page in a new window.   | Pass  |
+| Social Icons-Youtube   | Clicking will open a new window, redirecting the user to the Youtube page.  | Clicked icon  | Redirected to the Youtube page in a new window.   | Pass |
+| **Contact Form** | | | | |
+| Contact form | When items were left out, there was a message asking to fill the section in. | Clicked submit while leaving the form unfilled | Form requested sections to be filled in. | Pass |
+| Contact form | Typed everything in but email is in the wrong format | Clicked submit | Form requested the @ element to be included | Pass |
+| Contact Form | Typed everything correct and should expect the form to submit | Clicked submit | Form submitted | Pass |
+| Checkbox Interaction | Checked the box and tested if hidden fields appeared | Checked box  | Hidden fields appeared | Pass |
+
+- **Navigation**
 
 Confirmed all navigation links lead to the correct pages.
 Verified links on all pages, ensuring expected navigation.
 
-- __Forms__
+- **Forms**
 
 Tested the contact form for various scenarios.
 Correct inputs led to successful submission and redirection.
 Detected and displayed appropriate error messages for missing or incorrect inputs.
 
-- __Footer__
+- **Footer**
 
 Validated Social Media Icons: Confirmed they open in new tabs and display correct hover color.
 Checked Footer Contact Information:
@@ -176,20 +188,35 @@ In summary, comprehensive testing covered navigation, form functionality, and fo
 ### Validator Testing
 
 - HTML
+
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
-  
+
   ![Home Validator Results](docs/media/indexvalidator.PNG)
   ![Market Validator Results](docs/media/marketvalidator.PNG)
   ![Contact Validator Results](docs/media/contactvalidator.PNG)
-  
+
 - CSS
+
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
-  
+
   ![CSS Validator Results](docs/media/cssvalidator.PNG)
-  
+
 ### Lighthouse Testing
 
+- **Additional Device Testing**
 
+Aditional testing was performed on the following devices:
+
+1. Ipad Pro
+2. iPhone SE
+
+- **Browsers**
+
+I used for testing the following browsers:
+
+1. Google Chrome
+2. Mozilla Firefox
+3. Microsoft Edge
 
 ### Unfixed Bugs
 
@@ -205,11 +232,11 @@ The site was created using Codeanywhere code editor and pushed to github to the 
 
 The following git commands were used throughout development to push code to the remote repo:
 
-```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
+`git add <file>` - This command was used to add the file(s) to the staging area before they are committed.
 
-```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
+`git commit -m “commit message”` - This command was used to commit changes to the local repository queue ready for the final step.
 
-```git push``` - This command was used to push all committed code to the repository on github.
+`git push` - This command was used to push all committed code to the repository on github.
 
 ### Deployment to Github Pages
 
@@ -241,15 +268,15 @@ I drew inspiration and incorporated additional code from:
 
 [Medium Web accessibility](https://medium.com/web-accessibility-tips-tricks-and-techniques-for/web-accessibility-tip-visually-hidden-text-for-screen-readers-a52d954d9711#:~:text=sr%2Donly%20declaration%20block%20does,invisible%20to%20the%20human%20eye)
 
-[Mmdn](<https://developer.mozilla.org/>)
+[Mmdn](https://developer.mozilla.org/)
 
 [W3schools](https://www.w3schools.com/css/css3_flexbox_responsive.asp)
 
+- **Media**
 
-- __Media__
   - Images and visual elements sourced from Open Source repositories:
-  
+
   - Icons from [Font Awesome](https://fontawesome.com/) were utilized not only in the footer but also in other sections such as the navigation bar and in various places throughout the website to enhance user experience and visual elements.
 
-- __Content__
+- **Content**
   - The content developed for this website includes mock details and names for farmers to ensure privacy. This approach allows effective demonstration of the website's features while respecting the confidentiality of real individuals.

@@ -8,15 +8,15 @@ Farmers Market is a website dedicated to connecting local farmers with nearby co
 
 ## User Stories
 
-**Local Food Enthusiast**
+- **Local Food Enthusiast**
 
 Loving the farmers market website's simple layout, I easily explore a list of vendors and connect directly with local farmers through the provided contact details.
 
-**Health-Conscious Shopper**
+- **Health-Conscious Shopper**
 
 The clean design of the farmers market website guides me to organic vendors, and direct contact info lets me inquire about their products seamlessly.
 
-**Local Farmer**
+- **Local Farmer**
 
 The website's contact form has a fantastic feature for new farmers to register and showcase their products.
 This approach fosters connections with the community, and helps to expand my customer base.
@@ -218,9 +218,9 @@ In summary, comprehensive testing covered navigation, form functionality, and fo
 
 ### Lighthouse Testing
 
-[Home Testing](docs/media/lighthousehome.PNG)
-[Market Testing]()
-[Contact testing](docs/media/contactform.PNG)
+![Home Testing](docs/media/lighthousehome.PNG)
+![Market Testing](docs/media/lighthousemarket.PNG)
+![Contact testing](docs/media/lighthousecontact.PNG)
 
 - **Additional Device Testing**
 

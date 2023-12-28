@@ -6,6 +6,21 @@ Farmers Market is a website dedicated to connecting local farmers with nearby co
 
 ![Responsice Mockup](docs/media/mockup.PNG)
 
+## User Stories
+
+**Local Food Enthusiast**
+
+Loving the farmers market website's simple layout, I easily explore a list of vendors and connect directly with local farmers through the provided contact details.
+
+**Health-Conscious Shopper**
+
+The clean design of the farmers market website guides me to organic vendors, and direct contact info lets me inquire about their products seamlessly.
+
+**Local Farmer**
+
+The website's contact form has a fantastic feature for new farmers to register and showcase their products.
+This approach fosters connections with the community, and helps to expand my customer base.
+
 ## Features
 
 - **Navigation Bar**
@@ -203,9 +218,9 @@ In summary, comprehensive testing covered navigation, form functionality, and fo
 
 ### Lighthouse Testing
 
-[Home Testing]()
+[Home Testing](docs/media/lighthousehome.PNG)
 [Market Testing]()
-[Contact testing]()
+[Contact testing](docs/media/contactform.PNG)
 
 - **Additional Device Testing**
 

@@ -220,8 +220,6 @@ main {
 /* Contact Form */
 
 #register {
-    background-image: url(../images/vegetables.webp);
-    background-size: cover;
     padding: 20px 8% 20px 8%;
     flex-grow: 1;
 }

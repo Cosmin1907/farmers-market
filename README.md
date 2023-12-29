@@ -193,10 +193,7 @@ Detected and displayed appropriate error messages for missing or incorrect input
 
 - **Footer**
 
-Validated Social Media Icons: Confirmed they open in new tabs and display correct hover color.
-Checked Footer Contact Information:
-Tested phone number link, confirming it prompts the call option.
-Tested email address link, confirming it opens the default email application.
+Validated Social Media Icons: Confirmed they open in new tabs.
 
 In summary, comprehensive testing covered navigation, form functionality, and footer elements, ensuring a smooth user experience.
 
